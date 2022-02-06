@@ -1,0 +1,223 @@
+
+
+
+@font-face {
+    font-family: "Light";   /*Can be any text*/
+    src: local("Metropolis-Black"),
+      url("./fonts/Metropolis-master/TrueType/Metropolis-Black.ttf") format("truetype");
+  }
+*{
+    font-family: sans-serif;
+}
+
+.container-header{ 
+height: 88px;
+background-color: #FFFFFF;
+
+}
+.container-header h1{
+    padding-top: 20px;
+}
+.nav-info{
+font-family: "Light";
+margin: auto;
+width: 80%;
+font-family: Metropolis;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 165%;
+color: #222222;
+}
+.container-info{ 
+    background-color:#F9F9F9;
+}
+.info{
+height:14rem ;
+border-bottom: 1px solid #ECECEC;
+width: 70%;  
+display: flex;
+justify-content: space-between;
+margin: auto;
+ }
+ .phone-email{
+     display: flex;
+ }
+ .phone-email svg{
+     padding-top: 14px;
+     padding-right: 5px;
+ }
+ .shipping{
+    display: flex;
+ }
+ .shipping svg{
+    padding-top: 18px;
+     padding-right: 5px;
+ }
+ .info-header{
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+ }
+ .info-sub{
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 22px;
+ }
+.table{
+    background-color:#F9F9F9;
+    height: 38rem;
+    
+}
+ .order-header{
+     width: 80%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+ }
+ .order-header h1{
+     padding-bottom: 40px;
+ }
+
+ .table-person{
+     width: 80%;
+     margin: auto;
+     border-collapse: separate;
+     border-spacing: 0px 10px;
+     
+ }
+ .table-row-header{
+    
+    color: #999999;
+    border: none;
+    
+ }
+ .table-row-header th{
+    padding-bottom:40px;
+ }
+ .table-data{
+    background-color: #FFFFFF;
+    
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.16);
+    
+    height: 80px;
+    width: 80%;
+    margin: auto;
+    
+ }
+ .table-data td{
+     text-align: center;
+     color: #5F5F5F;
+     
+     
+ }
+.paginate{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 85%;
+    
+}
+.paginate p {
+    padding: 20px;
+    
+}
+.payment-status{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 21px;
+    
+    
+}
+.Instore{
+background: #000000;
+color: white;
+border-radius: 5px;
+transform: rotate(-90deg);
+width: 72px;
+height: 28px;
+font-weight: 600;
+font-size: 10px;
+line-height: 22px;
+position: relative;
+top: 15px;
+right: 18px;
+}
+.Instore p{
+text-align: center;
+padding-top: 3px;
+}
+
+.Online{
+    background: #ECECEC;
+    color: #222222;
+    border-radius: 5px;
+    transform: rotate(-90deg);
+    width: 72px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 22px;
+    position: relative;
+    top: 15px;
+    right: 18px;
+    }
+    .Online p{
+    text-align: center;
+    padding-top: 3px;
+    }
+
+    .Manual{
+        background: #F16500;
+        color:#FFFFFF;
+        border-radius: 5px;
+        transform: rotate(-90deg);
+        width: 72px;
+        height: 28px;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 22px;
+        position: relative;
+        top: 15px;
+        right: 18px;
+        }
+        .Manual p{
+        text-align: center;
+        padding-top: 3px;
+        }
+
+.Paid{
+    height: 8px;
+    width: 8px;
+    background-color: #64E1C3;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+.In{
+    height: 8px;
+    width: 8px;
+    background-color: #F16500;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+.Failed{
+    height: 8px;
+    width: 8px;
+    background-color: #FE1B1B;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+.img-card-type{
+ width: 30px;
+ 
+ border: 1px solid #ECECEC;
+ border-radius: 4px;
+ box-sizing: border-box;
+}
