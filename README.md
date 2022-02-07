@@ -1,5 +1,7 @@
 # Project made for Qliro witch react and SASS
 project is made to simulate payment table for status and payment methods etc.
+
+## technologies used
 hooks, react paginate, props, destructering, MOCK data fetch from JSON file.
 
 
