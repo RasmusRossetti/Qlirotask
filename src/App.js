@@ -13,21 +13,25 @@ function App() {
   const [order, setOrder] = useState([]);
   const [pageNumber, setPageNumber] = useState(0)
 
+  // fetching MOCK data
   useEffect(() => {
     const fetchOrders = async () => {
       const res = await fetch ("./data.json");
       const data = await res.json();
       setOrder(data.slice(0,50));
     }
+  //invoking fetch function
    fetchOrders();
   }, []);
 
+  //React paginate logic
   const orderPerPage = 5;
   const pagesVisited = pageNumber * orderPerPage;
 
-
+  //React paginate logic
 const pageCount = Math.ceil(order.length / orderPerPage);
 
+  //React paginate change page  
 const changePage = ({selected}) => {
   setPageNumber(selected)
 };
