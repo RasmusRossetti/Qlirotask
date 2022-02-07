@@ -1,5 +1,7 @@
 export const data = [
        {
+         cardtypesize: "qliro",
+         country: "./assets/uk 1.svg",
          cardtype: "./assets/Qliro.svg",
          status:"Online",
          ordernumber:"1234567890",
@@ -11,6 +13,8 @@ export const data = [
        },
  
        {
+         cardtypesize: "visa",
+         country: "./assets/svenska.svg",
          cardtype: "./assets/VISA.png",
          status:"Instore",
          ordernumber:"1234567890",
@@ -22,6 +26,8 @@ export const data = [
        },
  
        {
+         cardtypesize: "amex",
+         country: "./assets/Norska.svg",
          cardtype: "./assets/AMEX.png",
          status:"Manual",
          ordernumber:"1234567890",
@@ -33,6 +39,8 @@ export const data = [
        },
  
        {
+         cardtypesize: "paypal",
+         country: "./assets/svenska.svg",
          cardtype: "./assets/Paypal.png",
          status:"Online",
          ordernumber:"1234567890",
@@ -44,6 +52,8 @@ export const data = [
        },
  
        {
+         cardtypesize: "trustly",
+         country: "./assets/Norska.svg",
          cardtype: "./assets/Trustly_Checkout_Logotype_Horizontal_Black_RGB 1.svg",
          status:"Instore",
          ordernumber:"1234567890",

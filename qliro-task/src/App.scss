@@ -1,13 +1,15 @@
-
-
+$paidcolor: #64E1C3;
+$textcolor: #0A8F73;
+$inprogresscolor: #F16500;
+$failedcolor: #FE1B1B; 
 
 @font-face {
-    font-family: "Light";   /*Can be any text*/
+    font-family: "Light";
     src: local("Metropolis-Black"),
-      url("./fonts/Metropolis-master/TrueType/Metropolis-Black.ttf") format("truetype");
+      url("./fonts/WOFF/Metropolis-Medium.woff") format("truetype");
   }
 *{
-    font-family: sans-serif;
+    font-family: Light;
 }
 
 .container-header{ 
@@ -19,10 +21,8 @@ background-color: #FFFFFF;
     padding-top: 20px;
 }
 .nav-info{
-font-family: "Light";
 margin: auto;
 width: 80%;
-font-family: Metropolis;
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
@@ -33,6 +33,7 @@ color: #222222;
     background-color:#F9F9F9;
 }
 .info{
+padding-top: 2rem;
 height:14rem ;
 border-bottom: 1px solid #ECECEC;
 width: 70%;  
@@ -43,15 +44,13 @@ margin: auto;
  .phone-email{
      display: flex;
  }
- .phone-email svg{
-     padding-top: 14px;
+ .phone-email img{
      padding-right: 5px;
  }
  .shipping{
     display: flex;
  }
- .shipping svg{
-    padding-top: 18px;
+ .shipping img{
      padding-right: 5px;
  }
  .info-header{
@@ -78,60 +77,45 @@ line-height: 22px;
  .order-header h1{
      padding-bottom: 40px;
  }
-
  .table-person{
      width: 80%;
      margin: auto;
      border-collapse: separate;
      border-spacing: 0px 10px;
-     
  }
  .table-row-header{
-    
     color: #999999;
     border: none;
-    
  }
  .table-row-header th{
     padding-bottom:40px;
  }
  .table-data{
     background-color: #FFFFFF;
-    
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.16);
-    
     height: 80px;
     width: 80%;
     margin: auto;
-    
+ }
+ .table-data .amount{
+    color: #222222;
+    border: none;
+    font-weight: 600;
  }
  .table-data td{
      text-align: center;
      color: #5F5F5F;
-     
-     
+     justify-content: center;   
+     align-items: center;
  }
-.paginate{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    width: 85%;
-    
-}
-.paginate p {
-    padding: 20px;
-    
-}
+
 .payment-status{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    top: 21px;
-    
-    
+    padding-top:5px ;
 }
 .Instore{
 background: #000000;
@@ -144,7 +128,7 @@ font-weight: 600;
 font-size: 10px;
 line-height: 22px;
 position: relative;
-top: 15px;
+bottom: 5px;
 right: 18px;
 }
 .Instore p{
@@ -163,7 +147,7 @@ padding-top: 3px;
     font-size: 10px;
     line-height: 22px;
     position: relative;
-    top: 15px;
+    bottom: 5px;
     right: 18px;
     }
     .Online p{
@@ -172,7 +156,7 @@ padding-top: 3px;
     }
 
     .Manual{
-        background: #F16500;
+        background: $inprogresscolor;
         color:#FFFFFF;
         border-radius: 5px;
         transform: rotate(-90deg);
@@ -182,7 +166,7 @@ padding-top: 3px;
         font-size: 10px;
         line-height: 22px;
         position: relative;
-        top: 15px;
+        bottom: 5px;
         right: 18px;
         }
         .Manual p{
@@ -193,7 +177,7 @@ padding-top: 3px;
 .Paid{
     height: 8px;
     width: 8px;
-    background-color: #64E1C3;
+    background-color: $paidcolor;
     border-radius: 50%;
     display: inline-block;
     margin-right: 8px;
@@ -201,23 +185,121 @@ padding-top: 3px;
 .In{
     height: 8px;
     width: 8px;
-    background-color: #F16500;
+    background-color:$inprogresscolor;
     border-radius: 50%;
     display: inline-block;
     margin-right: 8px;
 }
+
 .Failed{
     height: 8px;
     width: 8px;
-    background-color: #FE1B1B;
+    background-color: $failedcolor;
     border-radius: 50%;
     display: inline-block;
     margin-right: 8px;
 }
 .img-card-type{
  width: 30px;
- 
  border: 1px solid #ECECEC;
  border-radius: 4px;
  box-sizing: border-box;
 }
+.img-country{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
+.img-country img{
+    padding-right: 5px;
+}
+.qliro{
+    Width: 40px;
+    height: 24px;
+    padding-right: 5px;
+}
+.visa{
+    width: 23px;
+    height: 10px;
+    padding-right: 5px;
+}
+.amex{
+    width: 24px;
+    height: 16px;
+    padding-right: 5px;
+}
+.paypal{
+    width: 30px;
+    height: 8px;
+    padding-right: 5px;
+}
+.trustly{
+    width: 30px;
+    height: 8px;
+    padding-right: 5px;
+}
+.paymentmethod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corner-down-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 28px;
+}
+.help{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 4rem;
+}
+
+.i{
+    background-color: #ECECEC;
+    border-radius: 50%;
+    width: 10px;
+    height: 16px;
+    padding-left: 6px;
+    padding-top: 1px;
+}
+.pageLink{
+    color: white
+}
+.paginate{
+    display: flex;
+    justify-content: flex-end;
+    margin: 4rem 9rem 4rem;  
+    width: 80%;
+    list-style: none;
+}
+.paginate li {
+    padding: 1rem;
+       
+}
+.paginate li a {
+    padding: 1rem;
+    cursor: pointer;
+    
+}
+
+.next{
+    color:$textcolor;
+    margin: 0;
+}
+.back{
+    color: #999999;
+    margin: 0;
+}
+.paginateActive {
+   background-color:  #439B83;
+   border-radius: 50%;
+   
+}
+
+
+
