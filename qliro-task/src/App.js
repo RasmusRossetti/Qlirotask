@@ -70,7 +70,6 @@ const changePage = ({selected}) => {
     NextLabel={"Next"}
     pageCount={pageCount}
     onPageChange={changePage}
-    
     containerClassName="paginate"
     previousLinkClassName="back"
     nextLinkClassName="next"

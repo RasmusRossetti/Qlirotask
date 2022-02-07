@@ -23,19 +23,9 @@ const Table = ({displayOrders}) => {
     <th>Amount</th>
   </tr>
   {displayOrders}
- 
   </tbody>
 </table>
-
 </div>
-{/* <div className='paginate'>
-  <p className='back'><a style={{color :"#999999" ,textDecoration: "none"}} href="#">Back</a></p>
-  <p style={{color :"#222222"}}>1</p>
-  <p style={{color :"#222222"}}>2</p>
-  <p className='Next'><a style={{color :"#0A8F73" ,textDecoration: "none"}} href="#">Next</a></p>
-</div> */}
-
-
   </div>;
 
   
