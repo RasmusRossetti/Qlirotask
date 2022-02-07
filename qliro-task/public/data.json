@@ -1,5 +1,6 @@
 [
   {
+    "id":"1",
     "cardtypesize": "qliro",
     "country": "./assets/uk 1.svg",
     "cardtype": "./assets/Qliro.svg",
@@ -13,6 +14,7 @@
   },
 
   {
+    "id":"2",
     "cardtypesize": "visa",
     "country": "./assets/svenska.svg",
     "cardtype": "./assets/VISA.png",
@@ -26,6 +28,7 @@
   },
 
   {
+    "id":"3",
     "cardtypesize": "amex",
     "country": "./assets/Norska.svg",
     "cardtype": "./assets/AMEX.png",
@@ -39,6 +42,7 @@
   },
 
   {
+    "id":"4",
     "cardtypesize": "paypal",
     "country": "./assets/svenska.svg",
     "cardtype": "./assets/Paypal.png",
@@ -53,6 +57,7 @@
 
 
   {
+    "id":"5",
     "cardtypesize": "qliro",
     "country": "./assets/uk 1.svg",
     "cardtype": "./assets/Qliro.svg",
@@ -67,96 +72,7 @@
 
 
   {
-    "cardtypesize": "amex",
-    "country": "./assets/Norska.svg",
-    "cardtype": "./assets/AMEX.png",
-    "status":"Manual",
-    "ordernumber":"1234567890",
-    "created":"20 maj, 12:33",
-    "store":"Butik x",
-    "paymentmethod":"Card, ****1234",
-    "paymentstatus":"Failed",
-    "amount":"1134"
-  },
-  
-  {
-    "cardtypesize": "visa",
-    "country": "./assets/svenska.svg",
-    "cardtype": "./assets/VISA.png",
-    "status":"Instore",
-    "ordernumber":"1234567890",
-    "created":"16 maj, 12:33",
-    "store":"Butik x",
-    "paymentmethod":"Card, ****1234",
-    "paymentstatus":"In progress",
-    "amount":"3890"
-  },
-  {
-    "cardtypesize": "paypal",
-    "country": "./assets/svenska.svg",
-    "cardtype": "./assets/Paypal.png",
-    "status":"Online",
-    "ordernumber":"1234567890",
-    "created":"24 maj, 12:33",
-    "store":"Butik x",
-    "paymentmethod":"Paypal",
-    "paymentstatus":"Paid",
-    "amount":"3321"
-  },
-
-  {
-    "cardtypesize": "trustly",
-    "country": "./assets/Norska.svg",
-    "cardtype": "./assets/Trustly_Checkout_Logotype_Horizontal_Black_RGB 1.svg",
-    "status":"Instore",
-    "ordernumber":"1234567890",
-    "created":"30 maj, 12:33",
-    "store":"Butik x",
-    "paymentmethod":"Trustly",
-    "paymentstatus":"In progress",
-    "amount":"8980"
-  },
-  {
-    "cardtypesize": "trustly",
-    "country": "./assets/Norska.svg",
-    "cardtype": "./assets/Trustly_Checkout_Logotype_Horizontal_Black_RGB 1.svg",
-    "status":"Instore",
-    "ordernumber":"1234567890",
-    "created":"30 maj, 12:33",
-    "store":"Butik x",
-    "paymentmethod":"Trustly",
-    "paymentstatus":"In progress",
-    "amount":"8980"
-  },
-  {
-    "cardtypesize": "paypal",
-    "country": "./assets/svenska.svg",
-    "cardtype": "./assets/Paypal.png",
-    "status":"Online",
-    "ordernumber":"1234567890",
-    "created":"24 maj, 12:33",
-    "store":"Butik x",
-    "paymentmethod":"Paypal",
-    "paymentstatus":"Paid",
-    "amount":"3321"
-  },
-
-
-  {
-    "cardtypesize": "qliro",
-    "country": "./assets/uk 1.svg",
-    "cardtype": "./assets/Qliro.svg",
-    "status":"Online",
-    "ordernumber":"1234567890",
-    "created":"05 maj, 12:33",
-    "store":"Butik x",
-    "paymentmethod":"invoice",
-    "paymentstatus":"Paid",
-    "amount":"2160"
-  },
-
-
-  {
+    "id":"6",
     "cardtypesize": "amex",
     "country": "./assets/Norska.svg",
     "cardtype": "./assets/AMEX.png",
@@ -170,6 +86,7 @@
   },
   
   {
+    "id":"7",
     "cardtypesize": "visa",
     "country": "./assets/svenska.svg",
     "cardtype": "./assets/VISA.png",
@@ -182,6 +99,7 @@
     "amount":"3890"
   },
   {
+    "id":"8",
     "cardtypesize": "paypal",
     "country": "./assets/svenska.svg",
     "cardtype": "./assets/Paypal.png",
@@ -195,6 +113,104 @@
   },
 
   {
+    "id":"9",
+    "cardtypesize": "trustly",
+    "country": "./assets/Norska.svg",
+    "cardtype": "./assets/Trustly_Checkout_Logotype_Horizontal_Black_RGB 1.svg",
+    "status":"Instore",
+    "ordernumber":"1234567890",
+    "created":"30 maj, 12:33",
+    "store":"Butik x",
+    "paymentmethod":"Trustly",
+    "paymentstatus":"In progress",
+    "amount":"8980"
+  },
+  {
+    "id":"10",
+    "cardtypesize": "trustly",
+    "country": "./assets/Norska.svg",
+    "cardtype": "./assets/Trustly_Checkout_Logotype_Horizontal_Black_RGB 1.svg",
+    "status":"Instore",
+    "ordernumber":"1234567890",
+    "created":"30 maj, 12:33",
+    "store":"Butik x",
+    "paymentmethod":"Trustly",
+    "paymentstatus":"In progress",
+    "amount":"8980"
+  },
+  {
+    "id":"11",
+    "cardtypesize": "paypal",
+    "country": "./assets/svenska.svg",
+    "cardtype": "./assets/Paypal.png",
+    "status":"Online",
+    "ordernumber":"1234567890",
+    "created":"24 maj, 12:33",
+    "store":"Butik x",
+    "paymentmethod":"Paypal",
+    "paymentstatus":"Paid",
+    "amount":"3321"
+  },
+
+
+  {
+    "id":"12",
+    "cardtypesize": "qliro",
+    "country": "./assets/uk 1.svg",
+    "cardtype": "./assets/Qliro.svg",
+    "status":"Online",
+    "ordernumber":"1234567890",
+    "created":"05 maj, 12:33",
+    "store":"Butik x",
+    "paymentmethod":"invoice",
+    "paymentstatus":"Paid",
+    "amount":"2160"
+  },
+
+
+  {
+    "id":"13",
+    "cardtypesize": "amex",
+    "country": "./assets/Norska.svg",
+    "cardtype": "./assets/AMEX.png",
+    "status":"Manual",
+    "ordernumber":"1234567890",
+    "created":"20 maj, 12:33",
+    "store":"Butik x",
+    "paymentmethod":"Card, ****1234",
+    "paymentstatus":"Failed",
+    "amount":"1134"
+  },
+  
+  {
+    "id":"14",
+    "cardtypesize": "visa",
+    "country": "./assets/svenska.svg",
+    "cardtype": "./assets/VISA.png",
+    "status":"Instore",
+    "ordernumber":"1234567890",
+    "created":"16 maj, 12:33",
+    "store":"Butik x",
+    "paymentmethod":"Card, ****1234",
+    "paymentstatus":"In progress",
+    "amount":"3890"
+  },
+  {
+    "id":"15",
+    "cardtypesize": "paypal",
+    "country": "./assets/svenska.svg",
+    "cardtype": "./assets/Paypal.png",
+    "status":"Online",
+    "ordernumber":"1234567890",
+    "created":"24 maj, 12:33",
+    "store":"Butik x",
+    "paymentmethod":"Paypal",
+    "paymentstatus":"Paid",
+    "amount":"3321"
+  },
+
+  {
+    "id":"16",
     "cardtypesize": "trustly",
     "country": "./assets/Norska.svg",
     "cardtype": "./assets/Trustly_Checkout_Logotype_Horizontal_Black_RGB 1.svg",

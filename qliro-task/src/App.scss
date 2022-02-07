@@ -284,9 +284,7 @@ padding-top: 3px;
 .paginate li a {
     padding: 1rem;
     cursor: pointer;
-    
 }
-
 .next{
     color:$textcolor;
     margin: 0;
@@ -298,8 +296,45 @@ padding-top: 3px;
 .paginateActive {
    background-color:  #439B83;
    border-radius: 50%;
-   
 }
+@media only screen and (max-width: 600px) {
+    .container-info{
+        height: 30rem;
+        
+    }
+    .info-sub{
+        text-align: center;
+    }
+    .info{
+        flex-wrap: wrap;
+        margin: 5rem;
+    }
+    .shipping img,.shipping p{
+        
+        text-align: center;
+    }
+    .info p,.info div{
+        text-align: center;
+       
+    }
+    .order-header{
+        display: block;
+        padding-top: 8rem;
+    }
+ 
+    .container-table{
+        display: block
+    };
+    .table-row-header{
+       flex-wrap: wrap
+    }
+    .paginate{
+        padding-top: 15rem;
+        width: 80%;
+    }
+    
+    
+  };
 
 
 
